@@ -1,0 +1,39 @@
+body{
+  background: radial-gradient(circle, #E2C2B9, #F1F7E7);
+  font-family: Arial, Helvetica, sans-serif;
+}
+div{
+  vertical-align: middle;
+  display: inline;
+}
+h2{
+  font-size:3em;
+  text-align:center;
+  background: radial-gradient(circle, #F1F7E7,#E2C2B9 );
+}
+hr{
+  border: none;
+  border-top: 7px dotted;
+  width: 30%;
+  border-color:grey;
+}
+img {
+  border-radius: 15px;
+}
+.circulo{
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+.boton{
+  color:white;
+  padding: 15px 20px;
+  background-color: grey;
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+.boton:hover{
+  background-color: orange;
+  border-radius: 20px;
+  color:black;
+}
